@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+iframe#video{
+display: block;
+position: relative;
+width: 800px;
+height:600px;
+margin: auto;
+}
+
+audio#musica{
+margin: auto;
+width: 100%;
+}

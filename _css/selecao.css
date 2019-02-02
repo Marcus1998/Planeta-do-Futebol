@@ -1,0 +1,22 @@
+@charset”UTF-8”;
+
+section#conteudo{
+	width: 1000px;
+	margin: auto;
+}
+
+iframe#frame-escalacao {
+width: 380px;
+ height: 700px;
+ border: none;
+ overflow: hidden;
+ }
+ 
+ iframe#frame-escalacao:-webkit-skrollbar {
+ display: none;
+ }
+ 
+ img#campo{
+	 height: 700px;
+	 width: 500px;
+ }

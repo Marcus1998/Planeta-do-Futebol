@@ -15,24 +15,26 @@ body {
 }
 header#cabecalho{
 	border-bottom: 2px black solid;
-	height: 150px;
-	background: url("../_imagens/logo-planeta.png") no-repeat 0px 80px;
+	height: 170px;
+	background: url("../_imagens/logo-planeta.png") no-repeat 0px 10px;
 }
 header#cabecalho h1{
 	font-family: 'FonteLogo', sans-serif;
-	font-size: 30pt;
+	font-size: 40pt;
 	color: #151515;
 	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
 	padding: 0px;
 	margin-bottom: 0px;
+	margin-left: 280px;
 }
 header#cabecalho h2 {
 	font-family: 'Titillium Web', sans-serif;
-	font-size: 15pt;
+	font-size: 25pt;
 	color: #151515;
 	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
 	padding: 0px;
 	margin-top: 0px;
+	margin-left: 280px;
 }
 header#cabecalho img#icone{
 	position: absolute;
@@ -180,7 +182,7 @@ nav#menu ul{
 	text-transform: uppercase;
 	text-decoration: none;
 	position: absolute;
-	top: 0px;
+	top: 150px;
 	left: 250px;
 }
 nav#menu li {

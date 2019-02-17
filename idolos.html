@@ -6,8 +6,12 @@
 		<title>Tudo sobre futebol</title>
 		<link rel="stylesheet" type="text/css" href="_css/estilo.css">
 		<link rel="stylesheet" type="text/css" href="_css/idolos.css">
-	</head>
-	<script language="javascript" type="text/javascript" src="_javascript/funcoes.js"></script>
+		<script type="text/javascript" src="_javascript/libs/modernizr.js"></script>
+        <script type="text/javascript" src="_javascript/libs/jquery.js"></script>
+        <script type="text/javascript" src="_javascript/libs/jquery.jcarousel.min.js"></script>
+        <script type="text/javascript" src="_javascript/libs/jcarousel.transitions.js"></script>
+        <script type="text/javascript" src="_javascript/funcoes.js"></script>>
+	</head>	
 	<body>
 		<div id="interface">
 			<header id="cabecalho">
@@ -38,8 +42,13 @@
 						</hgroup>
 					</header>
 				</article>
-
 				<p>Veja as fotos dos jogadores que considero meus idolos tanto da atualidade quanto jogadores ja aposentados.</p>
+				
+				<div align="center">
+					<img id="todas" src="_imagens/1.png">
+					<img id="carrocel" src="_imagens/2.png">
+				</div>
+				
 				<ul id="album-fotos">
 					<li id="fotos01"><span>Cristiano Ronaldo</span></li>
 					<li id="fotos02"><span>Lionel Messi</span></li>
@@ -51,6 +60,25 @@
 					<li id="fotos08"><span>ibrahimovic</span></li>
 					<li id="fotos09"><span>Sergio Ramos</span></li>
 				</ul>
+
+				<div class="jcarousel-wrapper">
+	                <div class="jcarousel">
+	                    <ul>
+	                        <li style="background: url('_imagens/cr7.jpg') no-repeat; background-size: 300px 300px;"></li>
+	                        <li style="background: url('_imagens/messi.jpg') no-repeat;background-size: 300px 300px;"></li>
+	                        <li style="background: url('_imagens/seedorf.jpg')no-repeat;background-size: 300px 300px;"></li>
+	                        <li style="background: url('_imagens/pirlo.jpg') no-repeat;background-size: 300px 300px;"></li>
+	                        <li style="background: url('_imagens/buffon.jpg') no-repeat;background-size: 300px 300px;"></li>
+	                        <li style="background: url('_imagens/lahm.jpg') no-repeat;background-size: 300px 300px;"></li>
+	                        <li style="background: url('_imagens/raul-gonzales.jpg') no-repeat;background-size: 300px 300px;"></li>
+	                        <li style="background: url('_imagens/ibrahimovic.jpg') no-repeat;background-size: 300px 300px;"></li>
+							<li style="background: url('_imagens/sergio-ramos.jpg') no-repeat;background-size: 300px 300px;"></li>
+	                    </ul>
+	                </div>
+
+	                <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+	                <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+	            </div>
 			</section>
 			<footer id="rodape">
 					<p>Copyright&copy; 2018 - by Marcus Teixeira</p>

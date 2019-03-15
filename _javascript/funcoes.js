@@ -12,3 +12,7 @@ $(document).ready(function() {
 		});
 	});
 });
+
+function troca(url){
+	document.getElementById("video").src = url;
+}
